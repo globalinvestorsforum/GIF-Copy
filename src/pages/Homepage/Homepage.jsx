@@ -6,7 +6,6 @@ import Mission from "./Mission";
 import { homepage } from "../../constants";
 import Card from "./Card";
 import ContactCard from "./ContactCard";
-import { GiCardDiscard } from "react-icons/gi";
 import GaisCard from "./GaisCard";
 
 const Homepage = () => {
@@ -16,9 +15,9 @@ const Homepage = () => {
       <HeroCard/>
       <Numbers/>
       <Mission/>
-      <Card img={homepage.card1} lists={homepage.card1list} order={""}/>
-      <Card img={homepage.card2} lists={homepage.card2list} order={"2"}/>
-      <Card img={homepage.card3} lists={homepage.card3list} order={""}/>
+      <Card img={homepage.card1} lists={homepage.card1list} order={0}/>
+      <Card img={homepage.card2} lists={homepage.card2list} order={2}/>
+      <Card img={homepage.card3} lists={homepage.card3list} order={0}/>
       <ContactCard/>
       <GaisCard/>
     </>
