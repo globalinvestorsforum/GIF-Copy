@@ -16,9 +16,9 @@ const Homepage = () => {
       <HeroCard />
       <Numbers />
       <Mission />
-      <Card order={0} img={homepage.card1} lists={homepage.card1list} />
+      <Card order={"none"} img={homepage.card1} lists={homepage.card1list} />
       <OddCard  img={homepage.card2} lists={homepage.card2list} />
-      <Card order={0} img={homepage.card3} lists={homepage.card3list} />
+      <Card order={"none"} img={homepage.card3} lists={homepage.card3list} />
       <ContactCard />
       <GaisCard />
     </>
