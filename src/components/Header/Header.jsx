@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { navItems } from '../../constants';
 import {NavLink, Link} from 'react-router-dom'
+import giflogo from '../../assets/giflogo.png'
 
 const Navbar = () => {
     const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
@@ -18,7 +19,7 @@ const Navbar = () => {
                     
                     <div className="flex items-center justify-start flex-shrink-0">
                         <Link to="/">
-                        <img className="h-50 w-40 " src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/GIF%2Fgiflogo.png?alt=media&token=18461d9b-7d2b-4b0c-92ab-0fa34d8ba19e" alt="" />
+                        <img className="h-50 w-40 " src={giflogo} alt="" />
                         </Link>
                     </div>
 
