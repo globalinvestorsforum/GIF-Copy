@@ -9,10 +9,10 @@ const Hero = () => {
             <h1 className='text-3xl md:text-4xl font-bold text-blue-950'>{whoweare.hero.heading}</h1>
             <h2 className='text-lg md:text-xl pt-5 text-blue-950'>{whoweare.hero.subheading}</h2>
             <div className='p-5 flex-wrap md:flex'>
-                <div className='md:w-2/5'>
+                <div className='lg:w-2/5'>
                     <img src={whoweare.hero.imgURL} alt="" />
                 </div >
-                <div className='md:w-3/5 flex items-center justify-center'>
+                <div className='lg:w-3/5 flex items-center justify-center'>
                     <div>
                     {para.map((para, index) => (
                         <p className='pt-5' key={index}>{para.p}</p>

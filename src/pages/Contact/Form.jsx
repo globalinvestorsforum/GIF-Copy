@@ -79,7 +79,7 @@ export default function Form() {
         backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/GIF%2FContact%2Fcontact.jpg?alt=media&token=618919c0-8990-4294-83e2-f2c65e389251)`,
       }}>
         <div className="w-full h-full backdrop-blur-sm backdrop-brightness-50 flex justify-center items-center">
-      <div className=" py-8 md:px-6 md:w-[30%]  ">
+      <div className=" py-8 md:px-6   ">
         <div className="mt-8 space-y-4   w-full shadow rounded  p-8 sm:p-12 ">
           <div className="bg-transparent">
             <label

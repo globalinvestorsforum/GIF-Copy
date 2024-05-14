@@ -13,7 +13,7 @@ const Hero = () => {
     <section>
       <div className="flex-wrap md:flex ">
         <div className="md:w-3/5 flex justify-center items-center ">
-          <div className="md:px-52 p-10">
+          <div className="md:w-full lg:px-52 p-10">
             <h1 className="text-3xl  md:text-4xl font-extrabold text-white">
               {heading}
             </h1>
