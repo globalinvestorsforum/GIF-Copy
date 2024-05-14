@@ -7,19 +7,20 @@ import { homepage } from "../../constants";
 import Card from "./Card";
 import ContactCard from "./ContactCard";
 import GaisCard from "./GaisCard";
+import OddCard from "./OddCard";
 
 const Homepage = () => {
   return (
     <>
-      <Hero/>
-      <HeroCard/>
-      <Numbers/>
-      <Mission/>
-      <Card  order={0} img={homepage.card1} lists={homepage.card1list} />
-      <Card   order={11} img={homepage.card2} lists={homepage.card2list}/>
+      <Hero />
+      <HeroCard />
+      <Numbers />
+      <Mission />
+      <Card order={0} img={homepage.card1} lists={homepage.card1list} />
+      <OddCard  img={homepage.card2} lists={homepage.card2list} />
       <Card order={0} img={homepage.card3} lists={homepage.card3list} />
-      <ContactCard/>
-      <GaisCard/>
+      <ContactCard />
+      <GaisCard />
     </>
   );
 };
