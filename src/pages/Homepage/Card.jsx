@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Card = ({img, order, lists}) => {
+const Card = ({order,img, lists}) => {
   return (
     <section className='bg-white'>
         <div className={` flex-wrap md:flex justify-center items-center`}>
