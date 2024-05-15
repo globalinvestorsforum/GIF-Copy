@@ -16,7 +16,7 @@ const Types = () => {
             key={index}
             className="flex-wrap md:flex justify-around items-center p-5"
           >
-            <h1 className="text-2xl font-bold w-72">{item.name}</h1>
+            <h3 className="text-2xl font-bold w-72">{item.name}</h3>
             <p className="md:w-96 text-lg">{item.desc}</p>
               <Link
                 to={item.link}

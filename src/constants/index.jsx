@@ -36,7 +36,7 @@ export const whoweare = {
         p: "We curate and host a diverse range of impactful summits and forums, including the Global Artificial Intelligence Summit, World Tech Summit, Global Residency and Citizenship Summit, and more.  ",
       },
       {
-        p: "Our forums act as a nexus for forging meaningful connections, fostering deal-making opportunities, and facilitating practical knowledge sharing. By seamlessly bringing together thought leaders and experts from various industries, we empower you to navigate the ever-evolving global economic landscape with confidence..dence..",
+        p: "Our forums act as a nexus for forging meaningful connections, fostering deal-making opportunities, and facilitating practical knowledge sharing. By seamlessly bringing together thought leaders and experts from various industries, we empower you to navigate the ever-evolving global economic landscape with confidence.",
       },
     ],
   },
@@ -114,7 +114,7 @@ export const membership = [
     heading: "GIF MEMBERSHIP",
   },
   {
-    subheading: "UNLOCK EXCLUSIVE ACCESS TO WORLD-LEADING SUMMITS.",
+    subheading: "UNLOCK EXCLUSIVE ACCESS TO WORLD LEADING SUMMITS.",
   },
   {
     smallheading:

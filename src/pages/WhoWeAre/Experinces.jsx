@@ -6,7 +6,7 @@ const Experinces = () => {
   return (
     <section className="min-h-[500px] bg-white text-neutral-900 ">
       <div className="p-5 pt-10   md:p-20">
-        <h1 className="text-3xl md:text-5xl text-blue-950 font-bold tracking-wide ">
+        <h1 className="text-2xl md:text-5xl text-blue-950 font-bold tracking-wide ">
           {experinces.heading}
         </h1>
         <p className="text-lg md:text-xl pt-5">{experinces.disc}</p>
@@ -19,9 +19,9 @@ const Experinces = () => {
               <img className="md:w-[50%] w-[70%]" src={experinces.subHead1Img} alt="" />
             </div>
             <div className="md:w-2/3 flex-wrap md:flex justify-start items-center">
-              <ul className="list-decimal">
+              <ul className="list-decimal pt-5">
                 {experinces.subHead1List.map((list, index) => (
-                  <li className="md:text-lg" key={index}>
+                  <li className="text-lg" key={index}>
                     {list.list}
                   </li>
                 ))}

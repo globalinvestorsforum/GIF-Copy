@@ -14,8 +14,8 @@ const SummitCard = ({intro, img, objList, impList , heading}) => {
             </div>
             <div className=' flex pt-10'>
                 <div className=' w-1/2'>
-                <h3 className='text-blue-950 font-bold text-3xl me-3  md:p-3'>OBJECTIVE</h3>
-                <ul className='list-disc px-3 md:px-8'>
+                <h3 className='text-blue-950 font-bold text-2xl md:text-3xl  md:p-3'>OBJECTIVE</h3>
+                <ul className='list-disc px-3 pt-2 md:pt-0 md:px-8'>
                 {objList.map((list, index) => (
                     <li key={index}>{list.content}</li>
                 ))}
@@ -23,8 +23,8 @@ const SummitCard = ({intro, img, objList, impList , heading}) => {
                 
                 </div>
                 <div className='w-1/2'>
-                <h3 className='text-blue-950 font-bold text-3xl ms-3 md:p-3'>IMPACT</h3>
-                <ul className='list-disc px-3  md:px-8 '>
+                <h3 className='text-blue-950 font-bold text-2xl md:text-3xl  md:p-3'>IMPACT</h3>
+                <ul className='list-disc px-3 pt-2 md:pt-0  md:px-8 '>
                 {impList.map((list, index) => (
                     <li key={index}>{list.content}</li>
                 ))}

@@ -14,10 +14,10 @@ const Hero = () => {
       <div className="flex-wrap md:flex ">
         <div className="md:w-3/5 flex justify-center items-center ">
           <div className="md:w-full lg:px-52 p-10">
-            <h1 className="text-3xl  md:text-4xl font-extrabold text-white">
+            <h1 className="text-3xl  md:text-5xl font-extrabold text-white">
               {heading}
             </h1>
-            <h2 className="text-xl md:text-2xl pt-5 w-40  font-bold text-white">
+            <h2 className="text-xl md:text-2xl pt-5 w-44  font-bold text-white">
               {subheading}
             </h2>
             <p className="text-lg pt-5 w-[80%]">{smallheading}</p>
