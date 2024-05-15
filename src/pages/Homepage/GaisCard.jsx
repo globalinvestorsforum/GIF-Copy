@@ -10,7 +10,7 @@ const GaisCard = () => {
 
       <div className='px-10 md:px-20 pt-28'>
         <h1 className='w-20 text-4xl md:text-5xl text-blue-950 font-extrabold '>GLOBAL ARTIFICIAL INTELLIGENCE SUMMIT.</h1>
-        <p className='pt-5 text-2xl text-blue-950'>BE A PART OF WORLDS'S LARGEST AI SUMMIT.</p>
+        <p className='pt-5 text-xl text-blue-950 font-bold'>BE A PART OF WORLDS'S LARGEST AI SUMMIT.</p>
         <div className="pt-10  ">
                 <Link className="border border-blue-950 bg-transparent p-3 text-blue-950 font-bold hover:bg-neutral-600">EXPLORE MORE</Link>
         </div>

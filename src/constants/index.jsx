@@ -370,7 +370,7 @@ export const homepage = {
   mission:
     "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/GIF%2FHomepage%2Fmissionimg.png?alt=media&token=d3edbfb8-dd4e-40d6-9341-ed9515b7abf0",
   card1:
-    "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/GIF%2FHomepage%2Fimg1.png?alt=media&token=40658cf8-7aca-4954-9367-132ac51a1a59",
+    "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/GIF%2FHomepage%2FGIF%20Website%20Framework%20.png?alt=media&token=1d6137bc-85b3-44e4-b3ed-b0396fb13fc8",
   card2:
     "https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/GIF%2FHomepage%2Fimg2.png?alt=media&token=7675f60c-8e1a-47ba-a0fd-47416ae0c67a",
   card3:

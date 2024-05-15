@@ -25,8 +25,8 @@ const ContactCard = () => {
         <div className=" md:text-2xl px-10">
             <p >Explore strategic partnerships with us. Elevate your brand at the world's largest summits!</p>
         </div>
-        <div className="md:text-end pt-10 md:pe-20 text-center">
-                <Link className="border border-lime-700 bg-black p-2 md:p-3">CONTACT US</Link>
+        <div className="md:text-end pt-3 md:pt-10 md:pe-20 text-center">
+                <Link className="border border-lime-700 bg-black text-sm p-2 md:p-3">CONTACT US</Link>
         </div>
         </div>
       </div>
