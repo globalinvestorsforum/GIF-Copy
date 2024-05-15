@@ -38,7 +38,7 @@ const Experinces = () => {
               <img className="md:w-[50%] w-[60%]" src={experinces.subHead2Img} alt="" />
             </div>
             <div className="md:w-2/3 md:flex flex-wrap justify-start items-center">
-              <ul className="list-decimal">
+              <ul className="list-decimal pt-5">
                 {experinces.subHead2List.map((list, index) => (
                   <li className="md:text-lg" key={index}>
                     {list.list}
